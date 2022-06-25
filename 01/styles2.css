@@ -1,0 +1,30 @@
+* { 
+    margin:0;
+}
+
+.wrap { 
+    width:1000px; 
+    border:1px solid;
+}
+
+.aside2 { 
+    width:400px; 
+    height:500px; 
+    background:orange; 
+    float:left;
+}
+
+.section2 { 
+    width:500px; 
+    height:200px; 
+    background:green; 
+    float:left;
+}
+
+.clear { 
+    clear:both;
+}
+
+img {
+    float: left;
+  }
