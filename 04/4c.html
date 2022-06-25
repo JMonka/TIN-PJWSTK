@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="4a.css">
+    <script src="4c.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" onsubmit="submitForm(event)">
+
+            <label for="number">Wprowadź liczbę*</label>
+            <input type="text" id="number" name="number" placeholder="Wprowadzona wartość musi być liczbą..">
+            <div id="numberError"></div>
+
+            <label for="name">Podaj nazwę uczelni*</label>
+            <input type="text" id="name" name="name" placeholder="Nie może pozostać puste..">
+            <div id="nameError"></div>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+</body>
+
+</html>

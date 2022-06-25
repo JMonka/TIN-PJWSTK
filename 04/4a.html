@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="4a.css">
+    <script src="4a.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="form">
+
+            <label for="temperature">Stopnie do przeliczenia</label>
+            <input type="text" id="temperature" name="temperature" placeholder="Wpisz wartość numeryczną..">
+
+            <label for="type">Typ konwersji</label>
+            <select id="type" name="type">
+                <option value="ctof">Celcjusz -> Fahrenheit</option>
+                <option value="ftoc">Fahrenheit -> Celcjusz</option>
+            </select>
+
+            <input type="button" value="Konwertuj" onclick="convert()">
+
+            <label for="result">Wynik</label>
+            <input type="text" id="result" name="result">
+
+        </form>
+    </div>
+</body>
+
+</html>
